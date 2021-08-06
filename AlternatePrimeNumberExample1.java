@@ -27,7 +27,8 @@ return 0;
 }     
 static void printAlternatePrimeNumber(int n)   
 {     
-int temp = 2;   
+int temp = 2; 
+  //loop
 for(int num = 2; num <= n-1; num++)   
 {     
 if (checkPrime(num) == 1)   
