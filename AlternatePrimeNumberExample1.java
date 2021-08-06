@@ -2,13 +2,16 @@ public class AlternatePrimeNumberExample1
 {     
 public static void main(String[] args)    
 {   
+  //declare variable
 int num = 20;    
+  // print statement
 System.out.print("Alternate prime numbers up to " + num+" are: ");    
 printAlternatePrimeNumber(num);   
 }   
 static int checkPrime(int num)   
 {   
-int i, flag = 0;    
+int i, flag = 0; 
+  // use loop
 for(i = 2; i<= num / 2; i++)   
 {   
 if(num % i == 0)   
